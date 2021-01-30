@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
-const prefix = "*";
 const ytdl = require('ytdl-core');
 const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
+const prefix = "*";
 client.once('ready', () => {
     console.log('Ready!');
 });
